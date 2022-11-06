@@ -1,6 +1,7 @@
-active = True
+active = True  # bool type
 persons = []  # empty list
 
+# while loop input program
 while active:
     name = input("enter name : ")
     age = input("enter age: ")
@@ -24,5 +25,4 @@ while active:
 
 print("\nPerson List")
 for person in persons:
-    print(
-        f"name = {person['name']} age = {person['age']} status = {person['status']}")
+    print(f"name = {person['name']} age = {person['age']} status = {person['status']}")

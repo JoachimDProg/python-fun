@@ -1,4 +1,9 @@
-# string and string formatting
+# in python, there is no need to implicitely write the data type
+# it is possible to set a specific type: variable = type(value)
+# numeric, strings and tuple are immutable
+# list, dictionary and sets are mutable
+
+# string and different string formatting
 msg = "les chums"
 name = "bobby"
 last = "boucher"
@@ -22,12 +27,13 @@ print(phrase3)
 print(whitespace.strip())
 print("\n")
 
-# int and number string parsing
-print("int and number string parsing")
+# numerical and numericals string parsing
+print("numerical and numericals string parsing")
 add = 2+3
 intstr = "23"
 flotant = 2.345
 
+# verify types with type()
 print(add)
 print(type(flotant))
 print(type(add))
@@ -38,8 +44,8 @@ total = add + int(intstr)
 print(total)
 print("\n")
 
-# array and loop
-print("array and loop")
+# list and loop
+print("list and loop")
 numarray = [1, 2, 3, 4, 5]
 for n in numarray:
     print(n)

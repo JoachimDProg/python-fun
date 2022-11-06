@@ -8,12 +8,12 @@ for console in consoles:
     else:
         print(f"{console}: this console is not a playstation")
 
-# python logical operators are: and, or, not
 print("\nlogical operators")
 playstation_count = 0
 nintendo_count = 0
 other_count = 0
 
+# else if is elif
 for console in consoles:
     if console.find("playstation") >= 0:
         playstation_count += 1
@@ -22,6 +22,7 @@ for console in consoles:
     else:
         other_count += 1
 
+# python logical operators are: and, or, not
 if playstation_count >= 2 and nintendo_count >= 2:
     print("i have too much stuff")
 
